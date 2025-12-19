@@ -1,0 +1,9 @@
+.swiper-cards .swiper-slide {
+  width: 100% !important; /* make slide take full width */
+  max-width: 100% !important;
+  box-sizing: border-box;
+}
+
+.swiper-card {
+  width: 100% !important;
+}
