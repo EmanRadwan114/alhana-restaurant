@@ -111,6 +111,7 @@ function Navbar(props) {
           padding: { lg: "0 100px" },
         }}
       >
+        <Container>
         <Toolbar sx={{ justifyContent: "space-between", alignItems: "center" }}>
           {/* Center section: Logo */}
           <Box
@@ -182,7 +183,8 @@ function Navbar(props) {
             </IconButton>
           </Box>
         </Toolbar>
-      </AppBar>
+      </Container>
+    </AppBar>
 
       {/* Drawer */}
       <Box component="nav">
