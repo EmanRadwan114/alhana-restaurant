@@ -18,9 +18,6 @@ export default function Hero() {
       >
         <Container
           fixed
-          sx={{
-            padding: { lg: "0 100px" },
-          }}
         >
           <Grid
             container
